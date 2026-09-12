@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Natanael Barbosa">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://kit.fontawesome.com/4b8e5e2341.js" crossorigin="anonymous"></script>
+    <title>Receitas</title>
+</head>
+<body>
+    <header>
+        <img src="https://picsum.photos/200/300" alt="Logo" class="logo">
+        <div class="menu-celular">
+            <input type="checkbox" id="menuToggle">
+            <label for="menuToggle" class="menu-icon">
+                <i class="fa-solid fa-bars"></i>
+                <i class="fa-solid fa-xmark"></i>
+            </label>
+            <nav class="navegacao-celular">
+                <ul class="nav_list">
+                    <li><a class="nav_link" href="index.html">Home</a></li>
+                    <li><a class="nav_link" href="#">Receitas</a></li>
+                    <li><a class="nav_link" href="#">E-books</a></li>
+                    <li><a class="nav_link" href="#">Chat IA</a></li>
+                    <input class="form_search" type="text" placeholder="Pesquisar receita">
+                    
+                    <select class="form_sel">
+                        <option class="form_option">Categorias</option>
+                        <option class="form_option">Categoria 1</option>
+                        <option class="form_option">Categoria 2</option>
+                        <option class="form_option">Categoria 3</option>
+                        <option class="form_option">Categoria 4</option>
+                    </select>
+
+                    <input class="form_submit" type="submit" value="Pesquisar">
+                </ul>
+            </nav>
+        </div>
+        <nav class="navegacao">
+            <ul class="nav_list">
+                <li><a class="nav_link" href="index.html">Home</a></li>
+                <li><a class="nav_link" href="#">Receitas</a></li>
+                <li><a class="nav_link" href="#">E-books</a></li>
+                <li><a class="nav_link" href="#">Chat IA</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="imagens-principais">
+            <div class="img_botoes">
+                <button class="img_btn">Tab 1</button>
+                <button class="img_btn">Tab 2</button>
+                <button class="img_btn">Tab 3</button>
+                <button class="img_btn">Tab 4</button>
+            </div>
+            <img class="img_principal" src="https://picsum.photos/200/300" alt="Imagem x">
+        </section>
+        <section class="pesquisa">
+            <form class="form_pesquisa" action="#">
+                <select class="form_sel">
+                    <option class="form_option">Categorias</option>
+                    <option class="form_option">Categoria 1</option>
+                    <option class="form_option">Categoria 2</option>
+                    <option class="form_option">Categoria 3</option>
+                    <option class="form_option">Categoria 4</option>
+                </select>
+
+                <input class="form_search" type="text" placeholder="Pesquisar receita">
+
+                <input class="form_submit" type="submit" value="Pesquisar">
+            </form>
+        </section>
+        <section class="carrossel">
+            <h2 class="carrossel_titulo">Lorem ipsum dolor</h2>
+            <div>
+                <div class="carrossel_div">
+                    <button class="carrossel_btn"><</button>
+                    <div class="carrossel_imgs">
+                        <a href="#"><img src="https://picsum.photos/200/300" alt="Carrossel 1"></a>
+                        <a href="#"><img src="https://picsum.photos/200/300" alt="Carrossel 2"></a>
+                        <a href="#"><img src="https://picsum.photos/200/300" alt="Carrossel 3"></a>
+                    </div>
+                    <button class="carrossel_btn">></button>
+                </div>
+                <br>
+                <div class="div_pontos">
+                    <span class="ponto"></span>
+                    <span class="ponto"></span>
+                    <span class="ponto"></span>
+                    <span class="ponto"></span>
+                    <span class="ponto"></span>
+                </div>
+            </div>
+        </section>
+        <section class="receitas">
+            <article class="receita">
+                <img src="https://picsum.photos/300" alt="Receita 1">
+                <div class="receita_texto">
+                    <h3><a href="#">Receita 1</a></h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam reprehenderit at quod ipsa dolore excepturi harum laborum similique sed recusandae consequuntur aspernatur doloremque quo consectetur veniam nisi quisquam in veritatis, molestias sit nulla atque beatae! Odio pariatur necessitatibus dicta sed est, aspernatur quod consequuntur praesentium alias modi omnis asperiores corporis.</p>
+                    <i>Categoria 1</i>
+                </div>
+            </article>
+
+            <article class="receita">
+                <img src="https://picsum.photos/300" alt="Receita 2">
+                <div class="receita_texto">
+                    <h3><a href="#">Receita 2</a></h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam reprehenderit at quod ipsa dolore excepturi harum laborum similique sed recusandae consequuntur aspernatur doloremque quo consectetur veniam nisi quisquam in veritatis, molestias sit nulla atque beatae! Odio pariatur necessitatibus dicta sed est, aspernatur quod consequuntur praesentium alias modi omnis asperiores corporis.</p>
+                    <i>Categoria 2</i>
+                </div>
+            </article>
+
+            <article class="receita">
+                <img src="https://picsum.photos/300" alt="Receita 3">
+                <div class="receita_texto">
+                    <h3><a href="#">Receita 3</a></h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam reprehenderit at quod ipsa dolore excepturi harum laborum similique sed recusandae consequuntur aspernatur doloremque quo consectetur veniam nisi quisquam in veritatis, molestias sit nulla atque beatae! Odio pariatur necessitatibus dicta sed est, aspernatur quod consequuntur praesentium alias modi omnis asperiores corporis.</p>
+                    <i>Categoria 3</i>
+                </div>
+            </article>
+
+            </article>
+            <article class="receita">
+                <img src="https://picsum.photos/300" alt="Receita 3">
+                <div class="receita_texto">
+                    <h3><a href="#">Receita 4</a></h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam reprehenderit at quod ipsa dolore excepturi harum laborum similique sed recusandae consequuntur aspernatur doloremque quo consectetur veniam nisi quisquam in veritatis, molestias sit nulla atque beatae! Odio pariatur necessitatibus dicta sed est, aspernatur quod consequuntur praesentium alias modi omnis asperiores corporis.</p>
+                    <i>Categoria 4</i>
+                </div>
+            </article>
+
+            </article>
+            <article class="receita">
+                <img src="https://picsum.photos/300" alt="Receita 3">
+                <div class="receita_texto">
+                    <h3><a href="#">Receita 5</a></h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam reprehenderit at quod ipsa dolore excepturi harum laborum similique sed recusandae consequuntur aspernatur doloremque quo consectetur veniam nisi quisquam in veritatis, molestias sit nulla atque beatae! Odio pariatur necessitatibus dicta sed est, aspernatur quod consequuntur praesentium alias modi omnis asperiores corporis.</p>
+                    <i>Categoria 5</i>
+                </div>
+            </article>
+
+            </article>
+            <article class="receita">
+                <img src="https://picsum.photos/300" alt="Receita 3">
+                <div class="receita_texto">
+                    <h3><a href="#">Receita 6</a></h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam reprehenderit at quod ipsa dolore excepturi harum laborum similique sed recusandae consequuntur aspernatur doloremque quo consectetur veniam nisi quisquam in veritatis, molestias sit nulla atque beatae! Odio pariatur necessitatibus dicta sed est, aspernatur quod consequuntur praesentium alias modi omnis asperiores corporis.</p>
+                    <i>Categoria 6</i>
+                </div>
+            </article>
+            <button>Mostrar mais receitas</button>
+        </section>
+    </main>
+    <footer>
+        <div>
+            <img src="https://picsum.photos/300" alt="imagem do rodape">
+            <div>
+                <strong>Redes sociais </strong> 
+                <div><i class="fa-brands fa-x-twitter"></i> <a href="#">Twitter/X</a></div>
+                <div><i class="fa-brands fa-instagram"></i> <a href="#">Instagram</a></div>
+                <div><i class="fa-brands fa-facebook"></i>  <a href="#">Facebook</a></div>
+            </div>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Adipisci reiciendis, tenetur excepturi velit veniam voluptate modi, expedita dolore vero impedit ea atque debitis illum. Provident?</p>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Adipisci reiciendis, tenetur excepturi velit veniam voluptate modi, expedita dolore vero impedit ea atque debitis illum. Provident?</p>
+        </div>
+        <h2>Lorem ipsum dolor</h2>
+    </footer>
+</body>
+</html>

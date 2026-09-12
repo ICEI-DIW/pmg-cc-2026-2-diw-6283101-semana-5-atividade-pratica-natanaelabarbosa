@@ -1,0 +1,435 @@
+@import url("reset.css");
+
+body {
+    background-color: #F7F0DE;
+}
+
+/* header */
+header {
+    background-color: #E3C567;
+    display: flex;
+    align-items: center;
+    padding: 1em;
+}
+
+nav {
+    width: 100%;
+}
+
+.logo {
+    border-radius: 1px solid black;
+    border-radius: 8px;
+    width: 16em;
+    height: 8em;
+}
+
+.nav_list {
+    display: flex;
+    gap: 4em;
+    width: 75%;
+    margin: 0 auto;
+}
+
+.nav_link {
+    text-decoration: none;
+    color: #573D1C;
+}
+
+.nav_list li {
+    padding: 1.5em;
+    text-align: center;
+    width: 6em;
+}
+
+.nav_list li:hover {
+    background-color: #C8963E;
+    border-radius: 4em;
+}
+
+/* imagem principal */
+.img_botoes {
+    position: absolute;
+    margin-right: 1em;
+    top: 7.3em;
+    right: 0.8em;
+}
+
+.img_btn {
+    padding: 1em;
+    margin: 0 -0.15em;
+    border: 1px solid black;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    background-color: #D9AE61;
+}
+
+.img_btn:hover {
+    background-color: #98763F;
+    cursor: pointer;
+}
+
+.img_principal {
+    width: 100%;
+    height: 22em;
+}
+
+/* pesquisa */
+
+.pesquisa {
+    background-color: #D9AE61;
+    margin: -0.18em 0 0;
+    padding: 1em;
+    text-align: center;
+}
+
+.form_search, .form_sel, .form_submit {
+    padding: 1em;
+}
+
+.form_sel, .form_submit {
+    width: 15%;
+    text-align: center;
+    background-color: #E3C567;
+}
+
+.form_submit {
+    border: 1px solid black;
+    border-radius: 8px;
+}
+
+.form_submit:hover {
+    background-color: #D1462F;
+    cursor: pointer;
+}
+
+.form_sel {
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+.form_search {
+    margin: 0 2em 0;
+    border: 1px solid black;
+    border-radius: 1em;
+    width: 30%;
+}
+
+/* carrossel */
+
+.carrossel {
+    border-top: 2px solid #573D1C;
+    border-bottom: 2px solid #573D1C;
+    padding: 1em;
+    text-align: center;
+    background-color: #E4C98B;
+}
+
+.carrossel_titulo {
+    font-size: 2em;
+}
+
+.carrossel_div {
+    margin-top: 1em;
+    display: inline-flex;
+    align-items: center;
+    gap: 1em;
+}
+
+.carrossel_imgs {
+    display: flex;
+    gap: 5em;
+}
+
+.carrossel_imgs a img {
+    width: 20em;
+    border: 1px solid black;
+    border-radius: 8px;
+}
+
+.carrossel_btn {
+    width: 3em;
+    height: 3em;
+    border-radius: 2em;
+    border: 1px solid black;
+    background-color: #D9AE61;
+    font-weight: bolder;
+    
+}
+
+.carrossel_btn:hover {
+    background-color: #C8963E;
+    cursor: pointer;
+}
+
+.div_pontos {
+    display: inline-flex;
+    margin-top: 1em;
+    gap: 1em;
+}
+
+.ponto {
+    width: 0.75em;
+    height: 0.75em;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.ponto:hover {
+    background-color: #573D1C ;
+}
+
+/* receitas */
+
+.receitas {
+    padding: 3%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 2em;
+}
+
+.receita {
+    background-color: #E4C98B;
+    border: 2px solid #573D1C;
+    border-radius: 1em;
+    padding: 2%;
+    width: 80%;
+    min-width: 280px;
+    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+}
+
+.receita img {
+    vertical-align: top;
+    border-radius: 1em;
+}
+
+.receita_texto {
+    display: inline-block;
+    padding: 1em;
+}
+
+.receita_texto h3 {
+    font-size: 250%;
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+}
+
+.receita_texto p {
+    padding: 1em 0;
+    font-size: 120%;
+}
+
+.receita_texto i {
+    text-decoration: underline;
+    font-size: 150%;
+}
+
+.receitas button {
+    width: 80%;
+    padding: 1%;
+    background-color: #D1462F;
+    border: 1px solid black;
+    border-radius: 1em;
+    font-size: 200%;
+}
+
+.receitas button:hover {
+    background-color: #75271A;
+    color: wheat;
+    cursor: pointer;
+}
+
+/* footer */
+
+footer {
+    background-color: #B83E28;
+    padding: 1em 6em;
+    text-align: center;
+}
+
+footer img {
+    width: 200px;
+    border: 2px solid #642216;
+    border-radius: 8px;
+}
+
+footer div {
+    display: flex;
+    gap: 4%;
+    align-items: center;
+}
+
+footer div p {
+    font-size: 130%;
+    text-align: justify;
+}
+
+footer h2 {
+    font-size: 3em;
+    font-weight: bold;
+    margin: 0.5em 0;
+}
+
+#menuToggle {
+    display: none;
+}
+
+.menu-celular {
+    display: none;
+}
+
+strong {
+    font-weight: bolder;
+    display: inline;
+    margin-bottom: 0.5em ;
+}
+
+footer div div {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;
+    align-items: center;
+}
+
+footer div div div {
+    display: flex;
+    flex-direction: row;
+}
+
+footer div div div a {
+    width: 80%;
+}
+
+@media screen and (max-width: 1281px) {
+    .carrossel {
+        display: none;
+    }
+}
+
+@media screen and (max-width:  1024px) {
+    footer div p {
+        display: none;
+    }
+
+    footer div {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    footer div img {
+        margin: 0 10%;
+    }
+
+    footer div div {
+        width: 50%;
+    }
+
+    footer div div strong {
+        font-size: 2em;
+    }
+
+    footer div div div svg {
+        margin-right: -58%;
+    }
+
+    footer div div div {
+        margin-left: 12%;
+    }
+}
+
+@media screen and (max-width: 885px) {
+    .imagens-principais {
+        display: none;
+    }
+
+    nav {
+        display: none;
+    }
+
+    header {
+        display: flex;
+        flex-direction: column;
+        gap: 1em;
+        padding-bottom: 0;
+    }
+
+    footer div {
+        display: flex;
+        flex-direction: column;
+        gap: 1em;
+    }
+
+    .pesquisa {
+        display: none;
+    }
+
+    header img {
+        margin: 0 auto;
+    }
+
+    .menu-celular {
+        display: inline-block;
+        width: 100%;
+        text-align: center;
+        padding: 1em;
+        background-color: #98763F;
+    }
+
+    #menuToggle:checked ~ label .fa-bars {
+        display: none;
+    }
+
+    #menuToggle:checked ~ label .fa-xmark {
+        display: inline-block;
+    }
+
+    #menuToggle:not(checked) ~ label .fa-bars {
+        display: inline-block;
+    }
+
+    #menuToggle:not(checked) ~ label .fa-xmark {
+        display: none;
+    }
+
+    #menuToggle:checked ~ nav {
+        position: absolute;
+        top: 209px;
+        left: 0;
+        display: block;
+        background-color: rgb(0,0,0,0.2);
+        backdrop-filter: blur(10px);
+        width: 100%;
+        height: 115%;
+        border-bottom: 1px solid black;
+    }
+    
+    #menuToggle:checked ~ nav > ul {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 1em;
+    }
+
+    #menuToggle:checked ~ nav > ul > li > a {
+        color: #000000;
+        font-size: 1.5em;
+    }
+
+    #menuToggle:checked ~ nav > ul > .form_search,
+    #menuToggle:checked ~ nav > ul > .form_sel,
+    #menuToggle:checked ~ nav > ul > .form_submit {
+        width: 80%;
+    }
+    
+    #menuToggle:checked ~ nav > ul > .form_sel,
+    #menuToggle:checked ~ nav > ul > .form_submit {
+        margin-top: -3em;
+    }
+    
+}
