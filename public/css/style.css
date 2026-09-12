@@ -262,6 +262,7 @@ footer div {
     display: flex;
     gap: 4%;
     align-items: center;
+    justify-content: space-around;
 }
 
 footer div p {
@@ -272,7 +273,6 @@ footer div p {
 footer h2 {
     font-size: 3em;
     font-weight: bold;
-    margin: 0.5em 0;
 }
 
 #menuToggle {
@@ -290,7 +290,6 @@ strong {
 }
 
 footer div div {
-    width: 50%;
     display: flex;
     flex-direction: column;
     gap: 0.5em;
@@ -317,33 +316,16 @@ footer div div div a {
         display: none;
     }
 
-    footer div {
-        display: flex;
-        justify-content: space-around;
-    }
-
-    footer div img {
-        margin: 0 10%;
-    }
-
-    footer div div {
-        width: 50%;
-    }
-
     footer div div strong {
         font-size: 2em;
-    }
-
-    footer div div div svg {
-        margin-right: -58%;
-    }
-
-    footer div div div {
-        margin-left: 12%;
     }
 }
 
 @media screen and (max-width: 885px) {
+    footer h2 {
+        margin-top: 0.5em;
+    }
+
     .imagens-principais {
         display: none;
     }
@@ -431,5 +413,4 @@ footer div div div a {
     #menuToggle:checked ~ nav > ul > .form_submit {
         margin-top: -3em;
     }
-    
 }
