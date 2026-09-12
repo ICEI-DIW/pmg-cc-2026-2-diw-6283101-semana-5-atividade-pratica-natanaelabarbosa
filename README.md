@@ -10,11 +10,14 @@ Para o trabalho da semana 4, criei um projeto simples que compartilhará algumas
 
 ## Prints:
 
-- Print HomePage Computador
+- **Print HomePage Computador**
+  
 ![Print da Home Page](./public/imgs/HomePage.png)
 
-- Print HomePage Laptop
-![Print da Home Page](./public/imgs/HomePage_Laptop.png)
+- **Print HomePage Laptop**
+  
+![Print da Home Page no Laptop](./public/imgs/HomePage_Laptop.png)
 
-- Print HomePage Mobile
-![Print da Home Page](./public/imgs/HomePage_Mobile.png)
+- **Print HomePage Mobile**
+  
+![Print da Home Page no Celular](./public/imgs/HomePage_Mobile.png)
